@@ -2,7 +2,6 @@ body {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
 }
@@ -35,8 +34,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-blue-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
-    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .studio {
@@ -56,6 +53,10 @@ body {
   font-style: normal;
 }
 
+.header-link {
+  color: var(--primary-text-color);
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -68,6 +69,7 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--primary-background-color);
 }
@@ -93,6 +95,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--primary-black-color);
 }
 
 .advantages-title {
@@ -101,18 +104,24 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  color: var(--primary-black-color);
 }
 
 .team {
   background-color: var(--primary-white-color);
 }
 
+.team-list {
+  background-color: var(--primary-background-color);
+}
 .team-main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: var(--primary-black-color);
 }
 
 .team-title {
@@ -138,7 +147,6 @@ body {
 .btn {
   font-family: inherit;
   background: var(--primary-white-color);
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
