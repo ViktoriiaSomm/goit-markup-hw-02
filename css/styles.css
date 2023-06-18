@@ -41,6 +41,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--primary-black-color);
 }
 
@@ -54,6 +55,7 @@ body {
 }
 
 .header-link {
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -98,6 +100,10 @@ body {
   color: var(--primary-black-color);
 }
 
+.benefits-text {
+  letter-spacing: 0.02em;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 36px;
@@ -133,6 +139,10 @@ body {
   color: var(--primary-black-color);
 }
 
+.team-text {
+  letter-spacing: 0.02em;
+}
+
 .footer {
   background-color: var(--primary-black-color);
 }
@@ -142,6 +152,7 @@ body {
 }
 
 .footer-text {
+  letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
 
